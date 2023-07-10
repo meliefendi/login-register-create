@@ -10,7 +10,7 @@ import { ChakraProvider } from "@chakra-ui/react"
 import { QueryClient, QueryClientProvider } from 'react-query'
 
 //const queryClient = new QueryClient();
-
+//başka sayfalara gidip gelindiğinde verilerin tekrar tekrar çekilmesinin önüne geçmek için kullanılır.
 const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
